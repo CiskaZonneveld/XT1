@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Buurtsuper Leo v.d. Drift</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        
+
+        <!--link om css te normaliseren: nu alle browsers hetzelfde. kan ook eerst downloaden en dat css-bestand linken: normalize css cdn-->
+        
+
+        <!-- eigen CSS-->
+        <link rel="stylesheet" href="css/Challenge2_HerontwerpWebsite_versie4.css"/>
+
+        <!--naar fontawesome voor de fa classes-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        
+        
+        <!-- importeren van lettertypes-->   
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700&display=swap');
+        </style>
+
+    </head>
+    
+    <body>
+        <header>
+            <h1>Buurtsuper Leo v.d. Drift</h1>
+            <label>
+                <input type="checkbox">
+                <span class="menu">
+                    <span class="hamburger">
+                    </span>
+                </span>
+                <ul>
+                    <li id="huidigtabblad"><a href="#">Home</a></li>
+                    <li><a href="#">Over ons</a></li>
+                    <li><a href="#">Kantoren</a></li>
+                    <li><a href="#">Bestellen</a></li>
+                </ul>
+            </label>
+        </header>
+        
+        <section>
+            <div class="grid-container1">
+                <div class="banner">
+                   <h2>Dé supermarkt voor uw dagelijkse boodschappen</h2>
+                </div>
+
+                <div class="intro">
+                    <h3>Online shoppen voor uw lunch!</h3>
+                    <p>Bij Buurtsuper Leo v.d. Drift bent u aan het juiste adres als het gaat om verse producten. Heeft u als bedrijf of kantoor een lunch nodig? Bestel bij ons makkelijk online de producten die u nodig heeft voor een smakelijke lunch. Bezorging wordt uiteraard geregeld door ons in een straal van 5 km. 
+                    <br />Wilt u meer weten? Mailt u ons gerust of bel 070-4140891. 
+                    <br />Namens ons alvast eet smakelijk.</p>
+                </div>
+
+                <div class="vers">
+                    <h3>Elke dag verse producten</h3>
+                    <div class="grid-container2">
+                        <div class="brood">
+                            <h4>Vers brood</h4>
+                            <img class="afbeeldingvers"
+                                 srcset="afbeeldingen/VersBrood.png 944w,
+                                        afbeeldingen/VersBrood_782px.png 782w,                    
+                                         afbeeldingen/VersBrood_672px.png 672w,
+                                         afbeeldingen/VersBrood_570px.png 570w"
+                                 sizes="(max-width: 689px) 570px,
+                                        (min-width: 690px) and (max-width: 999px) 672px,
+                                        (min-width: 1000px) and (max-width: 1249px) 782px,
+                                        (min-width: 1250px) 944px"
+                                 src="afbeeldingen/VersBrood.png"
+                                 alt="Vers brood"/>
+                            <p>Elke dag hebben wij vers brood wit / bruin / puntjes / krentenbollen noem maar op van de warme bakker Laurens Bosman uit Rijswijk. Ook bakken wij zelf bepaalde broodjes zoals croisants, stokbrood ook appelflappen bakken we zelf lekker voor bij de koffie.</p>
+                        </div>
+
+                        <div class="fruit">
+                            <h4>Vers fruit</h4>
+                            <img class="afbeeldingvers"
+                                 srcset="afbeeldingen/VersFruit.png 944w,
+                                        afbeeldingen/VersFruit_776px.png 776w,     
+                                         afbeeldingen/VersFruit_638px.png 638w,
+                                         afbeeldingen/VersFruit_570px.png 570w"
+                                 sizes="(max-width: 689px) 570px,
+                                        (min-width: 690px) and (max-width: 999px) 638px,
+                                        (min-width: 1000px) and (max-width: 1249px) 776px,
+                                        (min-width: 1250px) 944px"
+                                 src="afbeeldingen/VersFruit.png"
+                                 alt="Vers fruit"/>
+                            <p>Wat is er lekkerder als een stukje fruit gezond voor bij de lunch of na de avondmaal. Elke dag word ons assortiment aangevuld met vers fruit, bestel het mee voor bij de lunch. </p>
+                        </div>
+
+                        <div class="beleg">
+                             <h4>Vers beleg</h4>
+                              <img class="afbeeldingvers"
+                                 srcset="afbeeldingen/VersBeleg.png 944w,
+                                        afbeeldingen/VersBeleg_780px.png 780w,                 
+                                         afbeeldingen/VersBeleg_670px.png 670w,
+                                         afbeeldingen/VersBeleg_538px.png 538w"
+                                 sizes="(max-width: 689px) 538px,
+                                        (min-width: 690px) and (max-width: 999px) 670px,
+                                        (min-width: 1000px) and (max-width: 1249px) 780px,
+                                        (min-width: 1250px) 944px"
+                                 src="afbeeldingen/VersBeleg.png"
+                                    alt="Vers Beleg"/>
+                            <p>Elke dag vers beleg gesneden van het mes en vers verpakt, uw belegsoorten hebben we in huis geniet ervan lekker op uw brood. </p>
+                        </div>
+                        <div class="afbeeldingversextra">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="openingstijden">
+                    <h3>Openingstijden</h3>
+                    <table>
+                        <tr>
+                            <th>Maandag t/m Vrijdag van:</th>
+                            <td>7:30 tot 19:00 uur</td>
+                        </tr>
+                        <tr>
+                            <th>Zaterdag van:</th>
+                            <td>7:30 tot 17:00 uur</td>
+                        </tr>
+                        <tr>
+                            <th>Zondag van:</th>
+                            <td>10:00 tot 17:00 uur</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div class="afbeeldingopeningstijden">
+                </div>
+                
+                <div class="ad">
+                </div>
+                
+
+                <div class="contact grid-container3">
+                     <h3 class="titel">Contact</h3>
+                    <div class="maps">
+                        <iframe src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=Den%20Haag%2C%20Linnaeusstraat%20175+(Titel)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                    <p class="contacttekst">
+                        Buurtsupermarkt Leo van der Drift<br />
+                        Den Haag<br />
+                        Linnaeusstraat 175<br />
+                        <br />
+                        <i class="far fa-envelope"></i> E-mail: info@buurtsuperleovddrift.nl<br />
+                        <i class="fas fa-phone"></i> Telefoon: (070) 4140891
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        
+          <footer>
+            <div class="grid-container4">
+                <div class="spar">
+                    <img class="sparLogo"
+                         srcset="afbeeldingen/SparLogo.png 1544w,
+                                afbeeldingen/SparLogo_923px.png 923w,                    
+                                 afbeeldingen/SparLogo_633px.png 633w,
+                                 afbeeldingen/SparLogo_401px.png 401w"  
+                         sizes="(max-width: 689px) 401px,
+                                (min-width: 690px) and (max-width: 999px) 633px,
+                                (min-width: 1000px) and (max-width: 1249px) 923px,
+                                (min-width: 1250px) 1544px"
+                         src="afbeeldingen/SparLogo.png"
+                         alt="Logo van Spar"/>
+                    <p class="spartekst">
+                         Lid van Spar<br />
+                         Buurtsupermarkt Leo van der Drift is lid van SPAR. Zo profiteert u van verse producten tegen betaalbare prijzen.
+                     </p>
+                </div>
+                
+
+                <div class="legitimatie">
+                    
+                     <img
+                         srcset="afbeeldingen/Legitimatie.jpg 1200w,
+                                afbeeldingen/Legitmatie983px.png 983w,
+                                 afbeeldingen/Legitimatie796px.png 796w,
+                                 afbeeldingen/Legitimatie670px.png 670w"
+                         sizes="(max-width: 689px) 670px,
+                                (min-width: 690px) and (max-width: 999px) 670px,
+                                (min-width: 1000px) and (max-width: 1249px) 983px,
+                                (min-width: 1250px) 1200px"
+                         src="afbeeldingen/Legitimatie.jpg"
+                          alt="Legitimatie onder 20 jaar verplicht"/>
+                </div>
+
+                <div class="footernav">
+                    <ul class="navfooter">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Over ons</a></li>
+                        <li><a href="#">Kantoren</a></li>
+                        <li><a href="#">Bestellen</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+                
+                <div class="socialmedia">
+                    <a href="https://nl-nl.facebook.com/buurtsuperddrift" target="_blank"><i class="fab fa-facebook-square">: @Buurtsuperdrift</i></a>
+                    <a href="https://www.instagram.com/?hl=nl" target="_blank"><i class="fab fa-instagram">: Buurtsuper_Drift</i></a>
+                </div>
+            </div>
+        </footer>
+        
+        
+    </body>
